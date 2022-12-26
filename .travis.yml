@@ -19,5 +19,5 @@ script:
   - docker tag simple-node saramostafa331/simple-node:latest
 
 after_success:
-  - docker login -u saramostafa331 -P Ud3uRcKQ5sqXie@
+  - docker login -u saramostafa331 -p Ud3uRcKQ5sqXie@
   - docker push saramostafa331/simple-node
